@@ -1,0 +1,590 @@
+ /////////////////////////////////////////////////////////////////
+ //								//
+ //		       AJE descriptions configs 		//
+ //			    by Citizen247			//
+ //								//
+ //  Changes the names of AJE configured engines to something	//
+ //  a bit more "Kerbal".					//
+ //								//
+ /////////////////////////////////////////////////////////////////
+ 
+  //
+  // Piston Engines.
+  //
+ 
+  //Airplane plus - Spadprop - Hispano-Suiza 8Aa -> KAAB - Ophidian 8A
+ @PART[spadprop]:Final
+ {
+ 	@title = KAAB "Ophidian" 8A
+ 	@manufacturer = Kerbal Aeroplane Associate Body (KAAB)
+	@description = An important aero-engine of the Kolus civil war, powering numerous allied aircraft. High horsepower for the time, but as a water cooled engine it is hampered by the weight of the cooling system. Developing 150hp.
+}
+
+ //Airplane plus - fokkerprop - Oberursel U.II -> VBG - Baron 9J Rotary Engine
+@PART[fokkerprop]:Final
+{
+	@title = VBG "Baron" 9J Rotary Engine
+	@manufacturer = Volksbewegungsgruppe (VBG)
+	@description = The main aero-engine of the Imperial forces during the Kolus civil war. Air cooled the entire engine rotates to aid cooling. developing 110hp.
+}
+
+ //SXT - SXTKO211prop - De Havilland Gipsy Six -> Kerson and Sons - Nomad 6
+@PART[SXTKO211prop]:Final
+{
+	@title = Kerson and Sons - Nomad 6
+	@manufacturer = Kerson and Sons 
+	@description = A small 200hp six-cylinder, air-cooled, inverted inline piston engine. Developed primarily for the civilian market, it also found uses in UKP light military aircraft.
+}
+
+ //SXT - SXT_DH_Gipsy_Queen - De Havilland Gipsy Queen 70 -> Kerson and Sons - Nomad Queen
+@PART[SXT_DH_Gipsy_Queen]:Final
+{
+	@title = Kerson and Sons - Nomad Queen
+	@manufacturer = Kerson and Sons 
+	@description = A small 380hp six-cylinder, air-cooled, inverted inline piston engine. A development of the Nomad 6.
+}
+
+ //SXT - SXTTinyprop - IO-550-B Piston Engine -> KAAB - Kontinental 550b
+@PART[SXTTinyprop]:Final
+{
+	@title = KAAB - Kontinental 550b
+	@manufacturer = Kerbal Aeroplane Associate Body (KAAB)
+	@description = Fuel-injected air-cooled horizontally-opposed six-cylinder aero engine. 300HP at 2700RPM at sea level.
+}
+
+ //Airplane plus - 51prop - BMW VI -> KMW - Vortex VI
+@PART[51prop]:Final
+{
+	@title = KMV - "Vortex" VI
+	@manufacturer = Kerwer Motorenwerke (KMW)
+	@description = A star of the Kerwer Imperial empire during the interwar period, powering racing and military aircraft alike and it's expanding airforce. A poweful engine for it's time developing 650hp.
+}
+
+ //Airplane plus - AJP_NapierLion_II - Napier Lion II -> Kerson and Sons - "Chimera" II
+@PART[AJP_NapierLion_II]:Final
+{
+	@title = Kerson and Sons - "Chimera" II
+	@manufacturer = Kerson and Sons
+	@description = An important inter-war engine line for the UKP, powering bombers and fighters. Developing a respectable 480hp.
+}
+
+ //Airplane plus - AJP_NapierLion_II - Napier Lion VIIA -> Kerson and Sons - "Chimera" VIIA
+@PART[AJP_NapierLion_VIIA]:Final
+{
+	@title = Kerson and Sons - "Chimera" VIIA
+	@manufacturer = Kerson and Sons
+	@description = The ultimate development of the "Chimera", developing an incredible (for it's time) 900hp.
+}
+
+ //Airplane plus - AJP_RR_Kestral_IB - Rolls-Royce Kestrel IB -> Kerbal Kinetic - Mako IB
+@PART[AJP_RR_Kestral_IB]:Final
+{
+	@title = Kerbal Kinetic - Mako IB
+	@manufacturer = Kerbal Kinetic
+	@description = Kerbal Kinetics' responce to Kerman and Sons "Chimera" series. The most successful version of the original Mako I production series powered a number of interwar military and civilian aircraft for the UKP, developing 525hp.
+}
+
+ //Airplane plus - hawkerprop - Rolls-Royce Kestral V -> Kerbal Kinetic - Mako V
+@PART[hawkerprop]:Final
+{
+	@title = Kerbal Kinetic - Mako V
+	@manufacturer = Kerbal Kinetic
+	@description = The ultimate advance of the "Mako" series powering some of the fastest and most powerful UKP aircraft of the inter-war period. Developing 685hp.
+}
+
+ //Airplane plus - Chaikaprop - Shvetsov ASh-25V -> Kernov - Kash-25V
+@PART[chaikaprop]:Final
+{
+	@title = Kernov - Kash-25V
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = After the Kernov revolution and the forming of the KKKP Kernov industry was left in tatters. This 800hp engine, based on Kerbal Standard's K1830 Wasp, helped bring the Kernov aircraft industry back to life. 
+}
+
+ //Airplane plus - APP_NAKAJIMA_SAKAE_12 - Nakajima Sakae 12 -> Manta - "Divine Wind" v12
+@PART[APP_NAKAJIMA_SAKAE_12]:Final
+{
+	@title = Manta - "Divine Wind" v12
+	@manufacturer = Manta
+	@description = With the northern islands joining the UKP at the outset of the Great War, they brought with them their naval aircraft and engine designs. The most important of which is this mark 12, 14 cylinder air-cooled radial generating 975hp.
+}
+
+ //Airplane plus - Zeroprop - Nakajima Sakae 21 -> Manta - "Divine Wind" v21
+@PART[zeroprop]:Final
+{
+	@title = Manta - "Divine Wind" v21
+	@manufacturer = Manta
+	@description = A later development of the Manta "Divine Wind" series developing 1150hp.
+}
+
+ //Airplane plus - Yakprop - Klimov M-105 -> Kernov - K105 "Silver Crow"
+@PART[yakprop]:Final
+{
+	@title = Kernov - K105 "Silver Crow"
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = Building on their growing experience the Kernov Engineering Group produced their first fully independently designed 1100hp just before the outbreak of war.
+}
+
+ //Airplane plus - Merlin - Packard Merlin V-1650-7 -> Kerbal Standard - Mosquito V-1650
+@PART[merlin]:Final
+{
+	@title = Kerbal Standard - Mosquito V-1650
+	@manufacturer = Kerbal Standard
+	@description = The success and versatility of the Kerbal Kinetic "Marlin" series engines couldn't be ignored leading Kerbal Standard to licence them for their own designs. This mid-war version develops 1600hp and has good altitude performance due to a strong two-stage supercharger and ram air.
+}
+
+ //Airplane plus - AJP_Merlin - Rolls-Royce Merlin 46 -> Kerbal Kinetic - Marlin mk46
+@PART[AJP_Merlin]:Final
+{
+	@title = Kerbal Kinetic - Marlin Mk46
+	@manufacturer = Kerbal Kinetic 
+	@description = An early war variant of one of Kerbal Kinetic's most successful engine series, powering bombers and fighters of all the allies in it's various versions. Developing 1260hp at sea level. 
+}
+
+ //SXT - SXTMerlin46Prop - Rolls-Royce Merlin 46 -> Kerbal Kinetic - Marlin mk46 
+@PART[SXTMerlin46Prop]:Final
+{
+	@title = Kerbal Kinetic - Marlin Mk46
+	@manufacturer = Kerbal Kinetic 
+	@description = An early war variant of one of Kerbal Kinetic's most successful engine series, powering bombers and fighters of all the allies in it's various versions. Developing 1260hp at sea level. 
+}
+
+ //SXT - SXTMerlin66prop - Rolls-Royce Merlin 66 -> Kerbal Kinetic - Marlin Mk66
+@PART[SXTMerlin66prop]:Final
+{
+	@title = Kerbal Kinetic - Marlin Mk66
+	@manufacturer = Kerbal Kinetic 
+	@description = A Later development of the "Marlin" series. Provides 1975HP at sea level, rising to 2020HP at 1.2km (full throttle height). Two-speed single-stage supercharger. 10ft 11in 3-blade constant speed propeller.
+}
+
+ //Airplane Plus - spitfiremerlin - Rolls-Royce Griffon 65 piston engine -> Kerbal Kinetic – Kraken 65
+@PART[spitfiremerlin]:Final
+{
+	@title = Kerbal Kinetic – Kraken 65
+	@manufacturer = Kerbal Kinetic
+	@description = The Kraken is a powerful UKP engine of the mid-to-late Great War, generating 2035hp at sea level with a two stage two speed supercharger.
+}
+
+ //Airplane Plus - fighterProp - Allison V-1710-89 -> Kerbal Standard - "Arctic" V-1710 
+@PART[fighterProp]:Final
+{
+	@title = Kerbal Standard - "Arctic" V-1710 
+	@manufacturer = Kerbal Standard 
+	@description = The "Arctic" series were the only UKS-developed V-12 Liquid cooled engines to see service in the Great War. Provides 1520HP at sea level at 60inHg, holding 1500HP to approx 6.1km. 11ft 10in 3-blade constant speed propeller.
+}
+
+ //Airplane Plus - APP_R3350_23 - Wright R-3350-23 Duplex-Cyclone -> Kerman - K3350 “Tempest”-23
+@PART[APP_R3350_23]:Final
+{
+	@title = Kerman - K3350 "Tempest"-23
+	@manufacturer = Kerman Aircraft
+	@description = The Kerman K3350 "Tempest" was one of the most powerful piston engines ever produced. Twin-row, supercharged, air-cooled 18 Cylinder radial engine producing 2200hp.
+}
+
+ //Airplane Plus - duplexcyclone - Wright R-3350-26W Duplex-Cyclone -> Kerman - K3350 “Tempest”-26W
+@PART[duplexcyclone]:Final
+{
+	@title = Kerman - K3350 "Tempest"-26W
+	@manufacturer = Kerman Aircraft
+	@description = A late war development of the K3350. A 2800hp radial with two-speed two-stage supercharger and water injection, rated at 2340HP at 4.5km static.
+}
+
+ //Airplane Plus - Corsairprop - Pratt & Whitney R1830-86 Twin Wasp -> Kerbal Standard - K1830 Wasp
+@PART[corsairprop]:Final
+{
+	@title = Kerbal Standard - K1830 "Wasp"
+	@manufacturer = Kerbal Standard
+	@description = The K1830 is an important UKS engine of the inter-war and early Great War period. One of the most widely used aviation engines in history. A two-row, 14-cylinder, air-cooled radial design producing 1200hp, 1100HP at 5.25km.
+}
+
+ //SXT - SXTR280021Prop - Pratt & Whitney R-2800-21 Double Wasp -> Kerbal Standard - K2800-21 Hornet
+@PART[SXTR280021Prop]:Final
+{
+	@title = Kerbal Standard - K2800-21 Hornet
+	@manufacturer = Kerbal Standard
+	@description = The Kerbal Standard - K2800-21 Hornet is an UKS 2000hp twin-row, 18-cylinder, air-cooled radial aircraft engine with a displacement of 2,800 in³ (46 L).
+}
+
+ //Airplane Plus - APP_R2800Prop - Pratt & Whitney R-2800-18W Double Wasp -> Kerbal Standard - K2800-18W Hornet
+@PART[APP_R2800Prop]:Final
+{
+	@title = Kerbal Standard - K2800-18W Hornet
+	@manufacturer = Kerbal Standard
+	@description = 2380hp twin-row 18-cylinder water-injected radial with a strong two-speed two-stage supercharger.
+}
+
+ //SXT - SXTR280018WProp - Pratt & Whitney R-2800-18W Double Wasp -> Kerbal Standard - K2800-18W Hornet
+@PART[SXTR280018WProp]:Final
+{
+	@title = Kerbal Standard - K2800-18W Hornet
+	@manufacturer = Kerbal Standard
+	@description = 2380hp twin-row 18-cylinder water-injected radial with a strong two-speed two-stage supercharger.
+}
+
+ //SXT - SXTPWR2800 - Pratt & Whitney R-2800-63W Double Wasp -> Kerbal Standard - K2800-63W Hornet
+@PART[SXTPWR2800]:Final
+{
+	@title = Kerbal Standard - K2800-63W Hornet
+	@manufacturer = Kerbal Standard
+	@description = A late development of the K2800 series engines. 2600HP turbosupercharged radial with water injection. Flat-rated to 8km with ram air and WEP, 9km dry.
+}
+
+ //Airplane plus - APP_BCentaurus_I - Bristol Centaurus I -> Kerson and Sons - Cerberus I
+@PART[APP_BCentaurus_I]:Final
+{
+	@title = Kerson and Sons - Cerberus I
+	@manufacturer = Kerson and Sons
+	@description = An 18-cylinder, air-cooled, two-row radial engine producing 2000hp. The Great War led to the need for more and more powerful engines. Kerson and Sons responded with the Cerberus, one of the largest and most powerful aircraft piston engines to see service. 
+}
+
+ //Airplane plus - APP_BCentaurus_VII - Bristol Centaurus VII -> Kerson and Sons - Cerberus VII
+@PART[APP_BCentaurus_VII]:Final
+{
+	@title = Kerson and Sons - Cerberus VII
+	@manufacturer = Kerson and Sons
+	@description = An 18-cylinder, air-cooled, two-row radial engine producing 2520hp. The definitive version used in the Great War.
+}
+
+ //Airplane Plus - APP_BCentaurus_373 - Bristol Centaurus Mk373 -> Kerson and Sons - Cerberus XI
+@PART[APP_BCentaurus_373]:Final
+{
+	@title = Kerson and Sons - Cerberus XI
+	@manufacturer = Kerson and Sons
+	@description = An 18-cylinder, air-cooled, two-row radial engine producing 3220hp. The most powerful version of the Centaurus engine with direct fuel injection and water injection
+}
+
+ //Airplane Plus - 109Prop - Daimler-Benz DB 601 -> KMW - "Tornado" KB601
+@PART[109Prop]:Final
+{
+	@title = KMW - "Tornado" KB601
+	@manufacturer = Kerwer Motorenwerke (KMW)
+	@description = A 1175hp V12 liquid-cooled supercharged direct fuel injection aircraft piston engine. Important engine of the Kerwer Empire during the opening days of the Great War.
+}
+
+ //Airplane Plus - AJP_109_605Prop - Daimler-Benz DB 605A -> KMW - "Tornado" KB605
+@PART[AJP_109_605Prop]:Final
+{
+	@title = KMW - "Tornado" KB605
+	@manufacturer = Kerwer Motorenwerke (KMW)
+	@description = 1700hp V12 liquid-cooled supercharged direct fuel injection aircraft piston engine. A later development of the "Tornado" KB601.
+}
+
+ //SXT - SXTKO211Dprop - Junkers Jumo 211F -> VBG - Cyclone 211D
+@PART[SXTKO211Dprop]:Final
+{
+	@title = VBG - Cyclone 211D
+	@manufacturer = Volksbewegungsgruppe (VBG)
+	@description = A 1322hp inverted V-12 aircraft engine.
+}
+
+ //SXT - SXT_Jumo213A - Junkers Jumo 213A -> VBG - Whirlwind 213E - The configs in AJE seem to be reversed.
+@PART[SXT_Jumo213A]:Final
+{
+	@title = VBG - "Whirlwind" 213E
+	@manufacturer = Volksbewegungsgruppe (VBG)
+	@description = A 1865hp V-12 liquid-cooled aircraft engine. Improved version of the "Whirlwind" 213A.
+}
+
+ //SXT - SXTJ213 - Junkers Jumo 213E -> VBG - Whirlwind 213A - The configs in AJE seem to be reversed.
+@PART[SXTJ213]:Final
+{
+	@title = VBG - "Whirlwind" 213A
+	@manufacturer = Volksbewegungsgruppe (VBG)
+	@description = A 2071hp V-12 liquid-cooled aircraft engine. Developed from the "Cyclone" 211.
+}
+
+  //
+  // Turboprop Engines.
+  //
+
+ //Airplane Plus - tbmProp - Pratt & Whitney PT6 Turboprop -> Kerbal Standard - Leopard KT6A
+@PART[tbmProp]:Final
+{
+	@title = Kerbal Standard - Leopard KT6A
+	@manufacturer = Kerbal Standard 
+	@description = Modern turboprop, 680hp
+}
+
+ //SXT - SXTPWPT6 - Pratt & Whitney PT6A-15AG Turboprop -> Kerbal Standard - Leopard KT6A-15AG
+@PART[SXTPWPT6]:Final
+{
+	@title = Kerbal Standard - Leopard KT6A-15AG
+	@manufacturer = Kerbal Standard
+	@description = Modern turboprop, 680hp
+}
+
+ //Airplane Plus - 609prop - PT6C-67C -> Kerbal Standard - Snow Leopard KT6C-67C
+@PART[609prop]:Final
+{
+	@title = Kerbal Standard - Snow Leopard KT6C-67C
+	@manufacturer = Kerbal Standard
+	@description = The KT6 is one of the most popular turboprop aircraft engines in history. This variant is designed for tilt-rotor aircraft.
+}
+
+ //Airplane Plus - Predatorprop - Garrett TPE331-10 -> Kerman - Predator K76
+@PART[predatorprop]:Final
+{
+	@title = Kerman - Predator K76
+	@manufacturer = Kerman Aircraft
+	@description = A small and light 940hp turboprop
+}
+
+ //Airplane Plus - Herculesprop - Rolls-Royce T56 Turboprop -> Kerbal Kinetic - Hawk T56
+@PART[herculesprop]:Final
+{
+	@title = Kerbal Kinetic - Hawk T56
+	@manufacturer = Kerbal Kinetic
+	@description = The Hawk T56 is a 4350hp single-shaft, modular design military turboprop with a 14-stage axial flow compressor driven by a four-stage turbine.
+}
+
+ //Airplane Plus - KP12 - Allison T40 -> Kerman - Shriek K40 Contraprop
+@PART[KP12]:Final
+{
+	@title = Kerman - Shriek K40 Contraprop
+	@manufacturer = Kerman Aircraft
+	@description = The Allison T40 is a 5100hp dual turbine turboprop driving two contra-rotating propellors.
+}
+
+ //Airplane Plus - AJP_NK12MV - Kuznetsov NK-12MV -> Kernov - KP-12 Bear Kontraprop
+@PART[AJP_NK12MV]:Final
+{
+	@title = Kernov - KP-12 "Bear" Kontraprop
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = At 14795hp the KP-12 "Bear" is the Kerbin's most powerful aircraft engine ever produced. 
+}
+
+ //SXT - SXTNK12M - Kuznetsov NK-12MV -> Kernov - KP-12 Bear Kontraprop
+@PART[SXTNK12M]:Final
+{
+	@title = Kernov - KP-12 "Bear" Kontraprop
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = At 14795hp the KP-12 "Bear" is the Kerbin's most powerful aircraft engine ever produced. 
+}
+
+ //Airplane Plus - AJP_RR_Tyne - Rolls Royce Tyne MK21 -> Kerbal Kinetic - Falcon T21
+@PART[AJP_RR_Tyne]:Final
+{
+	@title = Kerbal Kinetic - Falcon T21
+	@manufacturer = Kerbal Kinetic
+	@description = The Falcon T21 is a 6100hp twin spool Turboprop designed shortly after the end of the Great War.
+}
+
+  //
+  // Jet Engines.
+  //
+ //Squad - MoS_AJE_RRNENE - Rolls-Royce Nene -> Kerbal Kinetic - Nighthawk
+@PART[MoS_AJE_RRNENE]:Final
+{
+	@title = Kerbal Kinetic - Nighthawk
+	@manufacturer = Kerbal Kinetic
+	@description = The Nighthawk was an early 22kn centrifugal compressor turbojet, tested before the end of the Great War. It was the most advanced and powerful Turbojet of it's time, powering a number of important UKP and international aircraft.
+}
+
+ //Squad - MoS_AJE_KLIMOV_VK1 - Klimov VK-1 -> Kernov - VK-1
+@PART[MoS_AJE_KLIMOV_VK1]:Final
+{
+	@title = Kernov - KS1
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = The KS1 is a 26.5kn centrifugal turbojet that was the KKKP's first Jet engine to see significant production. It was an upscaled KK-Nighthawk after the UKP sold a number of the engines to the KKKP under licence.
+}
+
+ //Squad - MoS_AJE_KLIMOV_VK1F - Klimov VK-1F -> Kernov - KS-1AB
+@PART[MoS_AJE_KLIMOV_VK1F]:Final
+{
+	@title = Kernov - KS1AB
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = The KS1AB is a development of the KS1 adding an Afterburner to give the Jet a maximum thrust of 36.5kn.
+}
+
+ //Squad - MoS_AJE_J47 - J47-GE-25 -> C7 Aerospace - J47 Sabretooth
+@PART[MoS_AJE_J47]:Final
+{
+	@title = C7 Aerospace - J47 Sabretooth
+	@manufacturer = C7 Aerospace
+	@description = The J47 Sabretooth was a 26.3kn thrust axial flow turbojet and the UKS's most important jet of the immediate post Great War period.
+}
+
+ //Squad - miniJetEngine - J85-GE-4 turbojet -> C7 Aerospace - J85 Tiger Cub
+@PART[miniJetEngine]:Final
+{
+	@title = C7 Aerospace - J85 Tiger Cub
+	@manufacturer = C7 Aerospace - J85 Tiger Cub
+	@description = The J85 Tiger Cub is a small light 13kn thrust turbojet.
+}
+
+ //Airplane Plus - f5jet - General Electric J85 -> C7 Aerospace - J85-AB Tiger
+@PART[f5jet]:Final
+{
+	@title = C7 Aerospace - J85-AB Tiger
+	@manufacturer = C7 Aerospace
+	@description = The J85-AB Tiger is a standard J85 Tiger Cub with a after burn stage giving it a boosted thrust of 22kn.
+}
+
+ //SXT - SXTMiniJet - Williams/Rolls-Royce FJ44-2A turbofan -> Kerbal Kinetics - Swift mk04
+@PART[SXTMiniJet]:Final
+{
+	@title = Kerbal Kinetics - Swift mk04
+	@manufacturer = Kerbal Kinetic
+	@description = A the Swift is a small 8kn thrust two-spool turbofan aimed for the light commercial civilian jet market.
+}
+
+ //Squad - JetEngine - CF34-3B Turbofan -> C7 Aerospace - J33 “Breeze” Turbofan
+@PART[JetEngine]:Final
+{
+	@title = C7 Aerospace - J33 “Breeze” Turbofan
+	@manufacturer = C7 Aerospace
+	@description = A mid-size high-bypass turbofan producing 41kn of thrust.
+}
+
+ //Squad - turboFanSize2 - CF6-50E turbofan -> C7 Aerospace - J90 Goliath
+@PART[turboFanSize2]:Final
+{
+	@title = C7 Aerospace - J90 "Goliath"
+	@manufacturer = C7 Aerospace
+	@description = The J90 is a 233.5kn thrust Turbofan. One of the largest and most powerful aviatian turbofans ever produced.
+}
+
+ //Airplane Plus - cfm56 - CFM56-7B18 turbofan -> KFM - KFM-56
+@PART[cfm56]:Final
+{
+	@title = KFM - KFM-56
+	@manufacturer = Kerbal Flight Motors (KFM) International
+	@description = The KFM-56 is an 86.7kn thrust high-bypass turbofan. It is one of the most widely used engines for military and civilian use.
+}
+
+ //Squad - aje_j57 - J57-P-21 Turbojet -> Kerbal Standard - J57 Bobcat
+@PART[aje_j57]:Final
+{
+	@title = Kerbal Standard - J57-21 Bobcat
+	@manufacturer = Kerbal Standard
+	@description = The Bobcat is one of the most important turbojets used by the UKS during the early Kold War, powering fighters and strategic bombers. 75.4kN thrust wet, 45.4kN dry. SFC 0.77/2.1 lb/lbf-hr static. Temperature limit Mach 1.9.
+}
+
+ // - turboFanEngine - J58-P-4 -> Kerbal Standard - J58 Whiplash
+@PART[turboFanEngine]:Final
+{
+	@title = Kerbal Standard - J58 Whiplash
+	@manufacturer = Kerbal Standard
+	@description = The J58 Whiplash was designed for one purpose: Mach 3+ aircraft. Variable CPR from 8.8 to 2.93 due to bypass vents progressively opening past Mach 2; fully open at Mach 3. 111.2kN dry. SFC 0.8/1.9 lb/lbf-hr static. Temperature limit Mach 4.1.
+}
+
+ //Squad - aje_j75 -  -> Kerbal Standard - J75 Wildcat
+@PART[aje_j75]:Final
+{
+	@title = Kerbal Standard - J75 Wildcat
+	@manufacturer = J75 Wildcat
+	@description = A larger more powerful development of the J57 Bobcat, the J75 Wildcat has seen extensive military and civilian use. This afterburning variant produces up to 109.0kN thrust wet, 76.5kN dry. SFC 0.8/2.15 lb/lbf-hr static. Temperature limit Mach 2.5.
+
+}
+
+ //Squad - aje_j79 - J79-GE-17 turbojet -> Kerbal Standard - J79 Lion
+@PART[aje_j79]:Final
+{
+	@title = Kerbal Standard - J79 Lion
+	@manufacturer = J79 Lion
+	@description = The J79 Lion is the first UKS "Mach 2" engine, seeing extensive service in bomber and fighter aircraft. 79.63kN wet thrust, 52.8kN dry. SFC 0.84/1.97 lb/lbf-hr static. Temperature limit Mach 2.6.
+}
+
+ //Squad - Turbojet - F100-PW-229 turbofan -> Kerbal Standard - J100 Panther
+@PART[turboJet]:Final
+{
+	@title = Kerbal Standard - J100 Panther
+	@manufacturer = Kerbal Standard
+	@description = The J100 Panther is a low-bypass turbofan with afterburner, producing 129.4 kN wet thrust, 79.2 kN dry. SFC 0.74/2.05 lb/lbf-hr static. Temperature limit Mach 2.85.
+
+}
+
+ //Squad - aje_f404 - F404-GE-402 turbofan -> C7 Aerospace - J404 Cougar
+@PART[aje_f404]:Final
+{
+	@title = C7 Aerospace - J404 Cougar
+	@manufacturer = C7 Aerospace
+	@description = The J404 Cougar is a low-bypass turbofan with afterburner, producing 78.7kN wet thrust, 53.16kN dry. SFC 0.82/1.74 lb/lbf-hr static. Temperature limit Mach 2.85.
+}
+
+ //Squad - MoS_AJE_Tumansky_R25 - Tumansky R-25 -> Kernov - KS25 Moho
+@PART[MoS_AJE_Tumansky_R25]:Final
+{
+	@title = Kernov - KS25 Moho
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = The KS25 Moho was the KKKP's first mach 2+ engine. Producing 68.5 kN wet thrust, 55kN dry. Dry SFC 0.91 lb/lbf-hr static.
+}
+
+ //Squad - MoS_AJE_Kilmov_RD33 - Kilmov RD33 -> Kernov - RS33 Eve
+@PART[MoS_AJE_Kilmov_RD33]:Final
+{
+	@title = Kernov - RS33 Eve
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = The KS33 Eve is a lightweight low-bypass turbofan producing 81.3 kN wet thrust, 50kN dry. Dry SFC 0.77lb/lbf-hr static.
+}
+
+ //Squad - aje_al31 - AL-31FM turbofan -> Kernov - KS31 Jool
+@PART[aje_al31]:Final
+{
+	@title = Kernov - KS31 Jool
+	@manufacturer = Kernov (Kernov Engineering Group)
+	@description = The KS31 Jool is a modern afterburning turbofan featuring vectored thrust. Producing 122.4kN wet thrust, 76.2kN dry, SFC 0.75/1.92 lb/lb hr. Max 2.5 Mach.
+}
+
+ //Squad - aje_atar - Atar 9K-50 turbojet -> KAAB - Viper k905
+@PART[aje_atar]:Final
+{
+	@title = KAAB - Viper k905
+	@manufacturer = Kerbal Aeroplane Associate Body (KAAB)
+	@description = The Viper k905 has comparitively low overall pressure ratio (6.2) which leads to high fuel consumption but good high-speed performance. 70.6kN wet, 49.18kN dry. SFC 0.98/1.99 lb/lbf-hr static. Temperature limit Mach 2.8.
+}
+
+ //Squad - aje_avon - Avon RB.146 Mk.302 -> Kerbal Kinetic - Falcon Mk.302
+@PART[aje_avon]:Final
+{
+	@title = Kerbal Kinetic - Falcon Mk.302
+	@manufacturer = Kerbal Kinetic
+	@description = The Falcon was Kerbal Kinetic's first axial-flow turbojet. The Mk.302 was the ultimate military Falcon, an afterburning turbojet producing 72.77kN wet, 56.45kN dry. SFC 0.85/1.85 lb/lbf-hr static. Temperature limit Mach 2.4.
+}
+
+ //Squad - MoS_AJE_RRSpey_202 - Rolls-Royce Spey Mk.202 -> Kerbal Kinetic - Hawk Mk.202
+@PART[MoS_AJE_RRSpey_202]:Final
+{
+	@title = Kerbal Kinetic - Hawk Mk.202
+	@manufacturer = Kerbal Kinetic
+	@description = The Hawk is a low-bypass turbofan engine producing 91.2kN wet thrust, 54kN dry. DrySFC of 0.63 lb/lbf-hr static.
+}
+
+ //Squad - MoS_AJE_RRSOlympus_593 - Rolls-Royce/Snecma Olympus 593 -> Kerbal Kinetic/KAAB - Griffon 593
+@PART[MoS_AJE_RRSOlympus_593]:Final
+{
+	@title = KAAB/Kerbal Kinetic - Griffon 593
+	@manufacturer = KAAB/Kerbal Kinetic
+	@description = The Griffon 593 is a high performance afterburning turbojet designed for high-speed and long endurance civilian and military aircraft. Producing 169.2 wet thrust, 139.4 dry. DrySFC of 0.59 lb/lbf-hr static. Mach 2+.
+}
+
+ //Squad - MoS_AJE_TU_RB199 - Turbo-Union RB199-104 -> KAAB/Kerbal Kinetic - Pegasus Mk104
+@PART[MoS_AJE_TU_RB199]:Final
+{
+	@title = KAAB/Kerbal Kinetic - Pegasus Mk104
+	@manufacturer = KAAB/Kerbal Kinetic
+	@description = The Pegasus is an aircraft turbofan jet engine designed as joint venture between KAAB and Kerbal Kinetic. Producing 76.8kN wet thrust, 43.8kN dry. DrySFC of 0.74 lb/lbf-hr static.
+}
+
+ //Squad - MoS_AJE_Eurojet_EJ200 - Eurojet EJ200 -> KAAB/Kerbal Kinetic - Union 200
+@PART[MoS_AJE_Eurojet_EJ200]:Final
+{
+	@title = KAAB/Kerbal Kinetic - Union 200
+	@manufacturer = KAAB/Kerbal Kinetic
+	@description = The Union 200 is a military 90kN low bypass turbofan jet engine developed by KAAB and Kerbal Kinetic for the multi-national Union Fighter. It was also used in record breaking land-speed record attempts.  90kN wet thrust, 60kN dry. SFC of 0.74/1.66 lb/lbf-hr static.
+}
+
+ //Squad - aje_ramjet - CR2 Ramjet -> Kerson and Sons - CR2 Odin Ramjet
+@PART[aje_ramjet]:Final
+{
+	@title = Kerson and Sons - CR2 Odin Ramjet
+	@manufacturer = Kerson and Sons
+	@description = Kerson and Sons experimental ramjet. Works best when faster than Mach 2. This engine provides no thrust below Mach 0.5!
+}
+
+ // -  -  -> 
+//@PART[]:Final
+//{
+//	@title = 
+//	@manufacturer = 
+//	@description = 
+//}

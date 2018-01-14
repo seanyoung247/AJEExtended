@@ -1,0 +1,87 @@
+ //Rotors
+ //Bellprop - Based on Allison Model 250
+@PART[bellprop]:FOR[AJE]
+{
+	@title = Rolls Royce 250-C30P Turboshaft
+	@manufacturer = Rolls Royce
+	@description = 
+	@mass = 0.265 //Engine = 114kg, Rotor Guesstimate = ~150kg
+
+	//%CoMOffset = 0, 0, -1
+	//%rescaleFactor=0.5
+
+	!MODULE[FSpropellerAtmosphericNerf]{}
+	!MODULE[FSengineBladed]{}
+	
+	MODULE
+	{
+		thrustVectorTransformName = baseReference
+		heatProduction = 0
+		
+		ignitionThreshold = 0.1
+		minThrust = 0
+		maxThrust = 45
+
+		name = ModuleEnginesAJERotor
+		IspMultiplier = 1
+		useOxygen = true
+		rpm = 310		//I think this is rotor speed, and this is my best guess for an average.
+		r = 6			//Gear ratio? Something else?
+		weight = 1500		//Max take-off weight?
+		power = 650		//Horse power presumably
+		BSFC = 8.47e-8		//0.468 kg/kW-h.
+		
+		useEngineResponseTime = False
+
+		PROPELLANT
+		{
+			name = Kerosene
+			ratio = 1
+			DrawGauge = True
+			
+			resourceFlowMode = STACK_PRIORITY_SEARCH
+		}
+	}
+	
+	!MODULE[ModuleReactionWheel] {}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		
+		PitchTorque = 10
+		YawTorque = 10
+		RollTorque = 5
+	}
+}
+
+ //Pratt & Whitney Canada PT6C-67C (needs to be a rotor engine)
+@PART[609prop]:FOR[AJE]
+{
+	@title= PT6C-67C
+	@manufacturer= Pratt & Whitney
+	@description= The PT6 is one of the most popular turboprop aircraft engines in history. This variant is designed for tilt-rotor aircraft.
+	@mass=0.188
+	@MODULE[ModuleEngines*]
+	{
+		@name=ModuleEnginesAJEPropeller
+		IspMultiplier = 1
+		useOxygen = true
+		
+		minRPM = 2000
+		maxRPM = 3000
+		power = 1679
+		gearratio = 0.5
+		BSFC = 8.47E-8
+		ramAir = 1
+		exhaustThrust = 0.5
+		meredithEffect = 0.001
+		boost0 = 0
+		rated0 = 0
+		boost1 = 0
+		rated1 = 0
+		switchAlt = -1
+		turbo = false
+		wastegateMP = 52.5
+		propName = RotolRX5
+	}
+}
