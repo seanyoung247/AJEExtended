@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modelName: AJEE-EVee
-  filePath: Test
+  filePath: AJEExtended/Parts/Piston
   production: 1
   textureFormat: 3
 --- !u!4 &931930072
